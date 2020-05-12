@@ -1,0 +1,169 @@
+.imgbg{
+
+	background-image: url("image/1.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width:100%;
+	background-attachment: fixed;
+
+}
+.later{
+	margin-top:150px;
+}
+.later h2{
+	font-size: 42px;
+	font-weight: 700;
+}
+.later h1{
+	font-size: 82px;
+	font-weight: 700;
+}
+.Servicese{
+	position: relative;
+}
+.service h2{
+	font-size: 42px;
+	font-weight: 700;
+}
+.service p{
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-size: 25px;
+}
+.service{
+	margin-bottom: 35px;
+}
+.imagetext{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	background-color:yellow;
+	position: relative;
+}
+.fa-angle-double-up{
+	margin-top: 20px;
+}
+.textsetting h1{
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 25px;
+}
+.textsetting p{
+	padding:15px;
+}
+.card{
+	margin-top: 40px;
+}
+.AMAZING h1{
+	font-weight: bold;
+}
+footer{
+	padding:20px;
+}
+
+/* =======================SIDE SOCIAL LINKS========================= */
+a {
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 3;
+  }
+  
+  p {
+	color: white;
+	position: relative;
+	left: -10px;
+	font-family: 'Lato';
+  }
+  
+  #sidebar {
+	height: 250px;
+	/* margin-top: 10px; */
+	width: 10px;
+	/* position: fixed; */
+	text-align: center;
+	padding: 10px;
+	margin-left: 10px;
+  }
+  
+  p i {
+	left: 30px;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 24px;
+  }
+  
+  .social {
+	margin-left: -200px;
+	width: 230px;
+	padding: 0;
+	display: inline-table;
+	height: 0px;
+	background-color: rgba(128, 128, 128, 0.73);
+	-moz-transition-property: margin-left;
+	-moz-transition-duration: 0.2s;
+	-moz-transition-delay: 0.2s;
+	-ms-transition-property: margin-left;
+	-ms-transition-duration: 0.2s;
+	-ms-transition-delay: 0.2s;
+	-o-transition-property: margin-left;
+	-o-transition-duration: 0.2s;
+	-o-transition-delay: 0.2s;
+	-webkit-transition-property: margin-left;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-delay: 0.2s;
+	box-shadow: 0px 0px 6px 0px #3E3D3D;
+	cursor: pointer;
+  }
+  
+  .social:hover {
+	margin-left: -30px;
+	width: 230px;
+	background-color: #3b5998;
+  }
+  
+  .facebook:hover {
+	background-color: #3b5998;
+  }
+  
+  .twitter:hover {
+	background-color: #4099FF;
+  }
+  
+  .google:hover {
+	background-color: #DD4B39;
+  }
+  
+  .linkedin p i {
+	left: 20px;
+  }
+  
+  .google p i {
+	left: 35px;
+  }
+  
+  .youtube p i {
+	left: 18px;
+  }
+  
+  .youtube:hover {
+	background-color: #E52D27;
+  }
+  
+  .linkedin:hover {
+	background-color: #0976B4;
+  }
+
+@media(max-width: 479px){
+
+	.later h2{
+	font-size: 22px;
+	font-weight: 700;
+         }
+      .later h1{
+	font-size: 42px;
+	font-weight: 700;
+}
+}
