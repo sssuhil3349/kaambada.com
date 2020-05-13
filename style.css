@@ -70,8 +70,8 @@ a {
 	line-height: 3!important;
   }
   
-  p {
-	color: black!mportant;
+  #sidebar p {
+	color: white!mportant;
 	position: relative;
 	left: -10px;
 	font-family: 'Lato';
