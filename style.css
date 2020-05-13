@@ -71,7 +71,7 @@ a {
 	line-height: 3!important;
   }
   
-   p {
+ #sidebar p {
 	color: white;
 	position: relative!important;
 	left: -10px!important;
