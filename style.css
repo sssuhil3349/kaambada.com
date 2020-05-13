@@ -70,11 +70,11 @@ a {
 	line-height: 3!important;
   }
   
-  #sidebar p {
-	color: white;
-	position: relative;
-	left: -10px;
-	font-family: 'Lato';
+  .social p {
+	color: white!important;
+	position: relative!important;
+	left: -10px!important;
+	font-family: 'Lato'!important;
   }
   
   #sidebar {
