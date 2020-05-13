@@ -64,98 +64,98 @@ footer{
 
 /* =======================SIDE SOCIAL LINKS========================= */
 a {
-	text-decoration: none;
-	vertical-align: middle;
-	text-align: center;
-	line-height: 3;
+	text-decoration: none!important;
+	vertical-align: middle!important;
+	text-align: center!important;
+	line-height: 3!important;
   }
   
   p {
-	color: white;
-	position: relative;
-	left: -10px;
-	font-family: 'Lato';
+	color: white!important;
+	position: relative!important;
+	left: -10px!important;
+	font-family: 'Lato'!important;
   }
   
   #sidebar {
-	height: 250px;
+	height: 250px!important;
 	/* margin-top: 10px; */
-	width: 10px;
-	 position: absolute;
-	 top:60px;
-	text-align: center;
-	padding: 10px;
-	margin-left: 10px;
-	z-index:1000;
+	width: 10px!important;
+	 position: absolute!important;
+	 top:60px!important;
+	text-align: center!important;
+	padding: 10px!important;
+	margin-left: 10px!important!important;
+	z-index:1000!important;
   }
   
   p i {
-	left: 30px;
-	position: relative;
-	vertical-align: middle;
-	text-align: center;
-	font-size: 24px;
+	left: 30px!important;
+	position: relative!important;
+	vertical-align: middle!important;
+	text-align: center!important;
+	font-size: 24px!important;
   }
   
   .social {
-	margin-left: -200px;
-	width: 230px;
-	padding: 0;
-	display: inline-table;
-	height: 0px;
-	background-color: rgba(128, 128, 128, 0.73);
-	-moz-transition-property: margin-left;
-	-moz-transition-duration: 0.2s;
-	-moz-transition-delay: 0.2s;
-	-ms-transition-property: margin-left;
-	-ms-transition-duration: 0.2s;
-	-ms-transition-delay: 0.2s;
-	-o-transition-property: margin-left;
-	-o-transition-duration: 0.2s;
-	-o-transition-delay: 0.2s;
-	-webkit-transition-property: margin-left;
-	-webkit-transition-duration: 0.2s;
-	-webkit-transition-delay: 0.2s;
-	box-shadow: 0px 0px 6px 0px #3E3D3D;
-	cursor: pointer;
+	margin-left: -200px!important;
+	width: 230px!important;
+	padding: 0!important;
+	display: inline-table!important;
+	height: 0px!important;
+	background-color: rgba(128, 128, 128, 0.73)!important;
+	-moz-transition-property: margin-left!important;
+	-moz-transition-duration: 0.2s!important;
+	-moz-transition-delay: 0.2s!important;
+	-ms-transition-property: margin-left!important;
+	-ms-transition-duration: 0.2s!important;
+	-ms-transition-delay: 0.2s!important;
+	-o-transition-property: margin-left!important;
+	-o-transition-duration: 0.2s!important;
+	-o-transition-delay: 0.2s!important;
+	-webkit-transition-property: margin-left!important;
+	-webkit-transition-duration: 0.2s!important;
+	-webkit-transition-delay: 0.2s!important;
+	box-shadow: 0px 0px 6px 0px #3E3D3D!important;
+	cursor: pointer!important;
   }
   
   .social:hover {
-	margin-left: -30px;
-	width: 230px;
-	background-color: #3b5998;
+	margin-left: -30px!important;
+	width: 230px!important;
+	background-color: #3b5998!important;
   }
   
   .facebook:hover {
-	background-color: #3b5998;
+	background-color: #3b5998!important;
   }
   
   .twitter:hover {
-	background-color: #4099FF;
+	background-color: #4099FF!important;
   }
   
   .google:hover {
-	background-color: #DD4B39;
+	background-color: #DD4B39!important;
   }
   
   .linkedin p i {
-	left: 20px;
+	left: 20px!important;
   }
   
   .google p i {
-	left: 35px;
+	left: 35px!important;
   }
   
   .youtube p i {
-	left: 18px;
+	left: 18px!important;
   }
   
   .youtube:hover {
-	background-color: #E52D27;
+	background-color: #E52D27!important;
   }
   
   .linkedin:hover {
-	background-color: #0976B4;
+	background-color: #0976B4!important;
   }
 
 @media(max-width: 479px){
