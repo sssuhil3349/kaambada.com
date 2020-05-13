@@ -73,9 +73,9 @@ a {
   
  #sidebar p {
 	color: black;
-	position: relative!important;
-	left: -10px!important;
-	font-family: 'Lato'!important;
+	position: relative;
+	left: -10px;
+	font-family: 'Lato';
   }
   
   #sidebar {
