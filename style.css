@@ -72,9 +72,21 @@ a {
   }
   
  #sidebar p {
-	color: black;
+	color: white;
 	position: relative;
-	left: -10px;
+	left: 30px;
+	font-family: 'Lato';
+  }
+  #sidebar .youtube p {
+	color: white;
+	position: relative;
+	left: 15px;
+	font-family: 'Lato';
+  }
+  #sidebar .linkedin p {
+	color: white;
+	position: relative;
+	left: 20px;
 	font-family: 'Lato';
   }
   
@@ -138,6 +150,10 @@ a {
   .google:hover {
 	background-color: #DD4B39!important;
   }
+
+  /* .facebook p i {
+	left: 20px!important;
+  } */
   
   .linkedin p i {
 	left: 20px!important;
