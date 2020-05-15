@@ -170,3 +170,11 @@ a {
 	font-weight: 700;
 }
 }
+
+
+.modal-content{
+	background-color: black!important;
+}
+.modal-footer{
+	justify-content: center!important;
+}
