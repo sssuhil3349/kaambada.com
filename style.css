@@ -63,6 +63,18 @@ footer{
 	padding:20px;
 }
 
+/* ==============form label color================== */
+
+.modal-header h3 {
+	color: #03a9f4;
+	/* color: yellow; */
+}
+.form-group label {
+	color: #03a9f4;
+	/* color: yellow; */
+}
+
+
 /* =======================SIDE SOCIAL LINKS========================= */
 a {
 	text-decoration: none!important;
@@ -84,6 +96,12 @@ a {
 	font-family: 'Lato';
   }
   #sidebar .linkedin p {
+	color: white;
+	position: relative;
+	left: 20px;
+	font-family: 'Lato';
+  }
+  #sidebar .instagram p {
 	color: white;
 	position: relative;
 	left: 20px;
@@ -136,11 +154,15 @@ a {
   .social:hover {
 	margin-left: -30px!important;
 	width: 230px!important;
-	background-color: #3b5998!important;
+	/* background-color: #3b5998!important; */
   }
   
   .facebook:hover {
 	background-color: #3b5998!important;
+  }
+
+  .instagram:hover {
+	  background-color: #fe4164!important;
   }
   
   .twitter:hover {
@@ -176,7 +198,9 @@ a {
   }
 
 @media(max-width: 479px){
-
+	#sidebar {
+		display: none;
+	}
 	.later h2{
 	font-size: 22px;
 	font-weight: 700;
@@ -187,8 +211,11 @@ a {
 }
 }
 @media(max-width: 450px){
+	#sidebar {
+		display: none;
+	}
    .fmcenter{
-	margin-left: 90px!important;
+	margin-left: 120px!important;
 }
 }
 
