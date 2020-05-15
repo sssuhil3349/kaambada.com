@@ -134,7 +134,8 @@ a {
 	padding: 0!important;
 	display: inline-table!important;
 	height: 0px!important;
-	background-color: rgba(128, 128, 128, 0.73)!important;
+/* 	background-color: rgba(128, 128, 128, 0.73)!important; */
+	 background: rgba(0,0,0,.6)!important;
 	-moz-transition-property: margin-left!important;
 	-moz-transition-duration: 0.2s!important;
 	-moz-transition-delay: 0.2s!important;
