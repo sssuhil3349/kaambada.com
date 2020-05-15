@@ -170,7 +170,15 @@ a {
 	font-weight: 700;
 }
 }
+@media(max-width: 450px){
+   .fmcenter{
+	margin-left: 90px!important;
+}
+}
 
+.fmcenter{
+	margin-left: 500px;
+}
 
 .modal-content{
 	background-color: black!important;
